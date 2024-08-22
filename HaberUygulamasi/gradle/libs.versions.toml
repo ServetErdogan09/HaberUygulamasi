@@ -1,0 +1,85 @@
+[versions]
+agp = "8.7.0-alpha07"
+androidGradle = "7.0.2"
+androidxJunit = "1.1.5"
+appcompatVersion = "1.5.0"
+espressoCoreVersion = "3.5.1"
+firebaseBom = "33.1.2"
+glide = "4.15.1"
+googleServices = "4.4.2"
+googleServicesVersion = "4.3.15"
+gradle = "8.0.2"
+gradleVersion = "8.0.0"
+kotlin = "1.9.24"
+coreKtx = "1.13.1"
+junit = "4.13.2"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+appcompat = "1.7.0"
+kotlinGradlePlugin = "1.9.0"
+kotlinGradlePluginVersion = "1.5.21"
+material = "1.12.0"
+activity = "1.9.1"
+constraintlayout = "2.1.4"
+navigationFragmentKtx = "2.7.7"
+navigationFragmentKtxVersion = "2.7.2"
+navigationSafeArgsGradlePlugin = "2.5.3"
+picasso = "2.8"
+reactivexRxjava = "3.0.0"
+retrofit = "2.9.0"
+roomRuntime = "2.6.1"
+rxandroid = "3.0.0"
+rxandroidVersion = "3.0.1"
+rxjava = "3.1.6"
+rxjavaVersion = "3.1.7"
+adapters = "3.2.0-alpha11"
+runtimeSavedInstanceState = "1.0.0-alpha11"
+
+[libraries]
+adapter-rxjava3 = { module = "com.squareup.retrofit2:adapter-rxjava3", version.ref = "retrofit" }
+androidx-appcompat-v150 = { module = "androidx.appcompat:appcompat", version.ref = "appcompatVersion" }
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+androidx-espresso-core-v351 = { module = "androidx.test.espresso:espresso-core", version.ref = "espressoCoreVersion" }
+androidx-junit-v115 = { module = "androidx.test.ext:junit", version.ref = "androidxJunit" }
+androidx-navigation-fragment-ktx = { module = "androidx.navigation:navigation-fragment-ktx", version.ref = "navigationFragmentKtx" }
+androidx-navigation-fragment-ktx-v272 = { module = "androidx.navigation:navigation-fragment-ktx", version.ref = "navigationFragmentKtxVersion" }
+androidx-navigation-safe-args-gradle-plugin = { module = "androidx.navigation:navigation-safe-args-gradle-plugin", version.ref = "navigationFragmentKtx" }
+androidx-navigation-safe-args-gradle-plugin-v253 = { module = "androidx.navigation:navigation-safe-args-gradle-plugin", version.ref = "navigationSafeArgsGradlePlugin" }
+androidx-navigation-ui-ktx = { module = "androidx.navigation:navigation-ui-ktx", version.ref = "navigationFragmentKtx" }
+androidx-room-compiler = { module = "androidx.room:room-compiler", version.ref = "roomRuntime" }
+androidx-room-runtime = { module = "androidx.room:room-runtime", version.ref = "roomRuntime" }
+androidx-room-rxjava3 = { module = "androidx.room:room-rxjava3", version.ref = "roomRuntime" }
+converter-gson = { module = "com.squareup.retrofit2:converter-gson", version.ref = "retrofit" }
+firebase-analytics-ktx = { module = "com.google.firebase:firebase-analytics-ktx" }
+firebase-auth-ktx = { module = "com.google.firebase:firebase-auth-ktx" }
+firebase-bom = { module = "com.google.firebase:firebase-bom", version.ref = "firebaseBom" }
+firebase-firestore-ktx = { module = "com.google.firebase:firebase-firestore-ktx" }
+glide = { module = "com.github.bumptech.glide:glide", version.ref = "glide" }
+google-services = { module = "com.google.gms:google-services", version.ref = "googleServices" }
+google-services-v4315 = { module = "com.google.gms:google-services", version.ref = "googleServicesVersion" }
+gradle = { module = "com.android.tools.build:gradle", version.ref = "gradle" }
+gradle-v702 = { module = "com.android.tools.build:gradle", version.ref = "androidGradle" }
+gradle-v800 = { module = "com.android.tools.build:gradle", version.ref = "gradleVersion" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+kotlin-gradle-plugin = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlinGradlePlugin" }
+kotlin-gradle-plugin-v1521 = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlinGradlePluginVersion" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+androidx-activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+picasso = { module = "com.squareup.picasso:picasso", version.ref = "picasso" }
+retrofit = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofit" }
+rxandroid = { module = "io.reactivex.rxjava3:rxandroid", version.ref = "rxandroid" }
+rxandroid-v301 = { module = "io.reactivex.rxjava3:rxandroid", version.ref = "rxandroidVersion" }
+rxjava = { module = "io.reactivex.rxjava3:rxjava", version.ref = "rxjava" }
+rxjava-v300 = { module = "io.reactivex.rxjava3:rxjava", version.ref = "reactivexRxjava" }
+rxjava-v317 = { module = "io.reactivex.rxjava3:rxjava", version.ref = "rxjavaVersion" }
+androidx-adapters = { group = "androidx.databinding", name = "adapters", version.ref = "adapters" }
+androidx-runtime-saved-instance-state = { group = "androidx.compose.runtime", name = "runtime-saved-instance-state", version.ref = "runtimeSavedInstanceState" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+

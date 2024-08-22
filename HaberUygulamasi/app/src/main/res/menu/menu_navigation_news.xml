@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/category_technology"
+        android:title="Teknoloji" />
+    <item
+        android:id="@+id/category_sports"
+        android:title="Spor" />
+    <item
+        android:id="@+id/category_entertainment"
+        android:title="Eğlence" />
+    <item
+        android:id="@+id/category_business"
+        android:title="İş Dünyası" />
+    <item
+        android:id="@+id/category_health"
+        android:title="Sağlık" />
+    <item
+        android:id="@+id/category_science"
+        android:title="Bilim" />
+    <item
+        android:id="@+id/category_general"
+        android:title="Genel" />
+    <item
+        android:id="@+id/category_politics"
+        android:title="Politika" />
+
+    <item
+        android:id="@+id/category_favoriler"
+        android:title="Favoriler" />
+</menu>
