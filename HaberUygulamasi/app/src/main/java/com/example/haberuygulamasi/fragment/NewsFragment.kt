@@ -59,7 +59,7 @@ class NewsFragment : Fragment() {
 
     private fun fetchNewsFromApi(category: String) {
         disposable.add(
-            RetrofitInstance.api.getNews(query = category, fromDate = sevenDaysAgo, toDate = todayDate, sortBy = "popularity", apiKey = "df035048973d418580f8a58076148033")
+            RetrofitInstance.api.getNews(query = category, fromDate = sevenDaysAgo, toDate = todayDate, sortBy = "popularity", apiKey = "API_KEY")
                 .subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread())
                 .subscribeWith(object : DisposableSingleObserver<NewsResponse>() {
